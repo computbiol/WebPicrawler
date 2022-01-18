@@ -11,3 +11,5 @@ RUN pip3 install -r /tmp/requirements.txt
 COPY WebPicrawler.py /usr/local/bin
 
 ENTRYPOINT [ "python3", "/usr/local/bin/WebPicrawler.py" ]
+
+#SHELL ["/bin/bash", "-c"]
